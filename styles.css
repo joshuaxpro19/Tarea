@@ -1,17 +1,22 @@
 body{
-    color: #111;
+    color: #222;
+    margin: 0;
 }
 
-.box1{
-    width: 65%;
+p{
+    font-family: 'Times New Roman';
+    font-size: 12px;
+}
+.cabeza{
+    font-family: "Montserrat";
     text-align: justify;
     margin: auto;
+    background-color: black;
+    padding: 10px;
+    color: #ddd;
 }
 
-.texto{
-    display: flex;
-}
-.box2{
+.cuerpo{
     width: 80%;
     margin: auto;
 }
@@ -21,4 +26,10 @@ body{
 }
 h1{
     text-align: center;
+}
+
+.pie{
+    background-color: black;
+    color: #fff;
+    padding: 10px 50px;
 }
