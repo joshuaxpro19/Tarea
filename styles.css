@@ -5,7 +5,8 @@ body{
 
 p{
     font-family: 'Times New Roman';
-    font-size: 12px;
+    font-size: 18px;
+    text-align: justify;
 }
 .cabeza{
     font-family: "Montserrat";
@@ -15,14 +16,34 @@ p{
     padding: 10px;
     color: #ddd;
 }
-
+.texto{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
 .cuerpo{
     width: 80%;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-
+.fondo {
+    background: url(https://cdn.discordapp.com/attachments/1258909688947408970/1304329263239008306/image.png?ex=672efec9&is=672dad49&hm=1f6e30f8fa0e709ff5fd1d5ca940afc94c836d074be582909efd6aefc0b3a4d7&) no-repeat center center;
+    background-size: cover; 
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .Descripcion{
+    border-radius: 50px;
+    align-items: center;
+    background-color: #111;
+    padding: 0 40px;
+    width: 80%;
+    margin: auto;
     text-align: center;
+    color: #eee;
+    font-weight: 800;
 }
 h1{
     text-align: center;
@@ -32,4 +53,25 @@ h1{
     background-color: black;
     color: #fff;
     padding: 10px 50px;
+}
+
+.empresa {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.empresa img {
+    max-width: 300px;
+    height: auto;
+}
+
+.texto-descripcion {
+    flex: 1; 
+}
+
+.texto-descripcion h2 {
+    margin-top: 0;
+    font-size: 24px;
 }
