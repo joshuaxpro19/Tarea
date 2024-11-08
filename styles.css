@@ -1,0 +1,26 @@
+body{
+    background-color: #777;
+    color: #ddd;
+}
+
+.box1{
+    width: 65%;
+    text-align: justify;
+    margin: auto;
+    display: flex;
+}
+
+.texto{
+    
+}
+.box2{
+    width: 80%;
+    margin: auto;
+}
+
+.Descripcion{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
