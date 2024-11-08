@@ -1,6 +1,11 @@
 body{
     color: #222;
     margin: 0;
+    padding: 0 80px;
+    background-color: #222;
+}
+.tbody{
+    background-color: #fff;
 }
 
 p{
@@ -37,7 +42,7 @@ p{
 .Descripcion{
     border-radius: 50px;
     align-items: center;
-    background-color: #111;
+    background-color: #111c;
     padding: 0 40px;
     width: 80%;
     margin: auto;
@@ -94,6 +99,15 @@ table{
 }
 
 .pie p{
-    font-size: 12px;
-    font-family: 'Times New Roman';
+    font-size: 11px;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+.stripe{
+    padding: 50px;
+}
+
+.link{
+    color: #fff;
 }
